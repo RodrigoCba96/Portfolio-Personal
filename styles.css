@@ -134,7 +134,7 @@
   }
   
   .skills li:hover {
-    background-color: #d0ebff;
+    background-color: #91b8e6;
     transform: translateY(-3px) scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 119, 204, 0.2);
   }
@@ -147,12 +147,20 @@
     gap: 2rem;
   }
   
+  .project-card-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
   .project-card {
     background-color: #fff;
     padding: 1.5rem;
     border-radius: 0.75rem;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.2s ease;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
   }
   
   .project-card:hover {
@@ -265,5 +273,24 @@
     cursor: pointer;
     user-select: none;
   }
+
   
+  
+  .github-button {
+    display: inline-block;
+    margin-top: 1.5rem;
+    background-color: #24292e;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    position: relative;
+    left: 44%;
+  }
+  
+  .github-button:hover {
+    background-color: #91b8e6;
+    transform: translateY(-2px);
+  }
   
