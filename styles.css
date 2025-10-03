@@ -310,7 +310,7 @@
   background-color: #fefefe;
   margin: 10% auto; 
   padding: 0;
-  border: 1px solid #888;
+  border: 1px solid #000000;
   width: 90%; 
   max-width: 800px; 
   position: relative;
@@ -376,7 +376,7 @@
 }
 
 .cv-dropdown-content a:hover {
-    background-color: #24292e;
+    background-color: #e5e5e5;
 }
 
 .show {
